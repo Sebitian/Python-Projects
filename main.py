@@ -1,8 +1,9 @@
 import speech_recognition
 import pyttsx3
 import openai
+from API import myKey
 
-openai.api_key = "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"
+openai.api_key = myKey
 
 recognizer = speech_recognition.Recognizer()
 flag = True
